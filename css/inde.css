@@ -540,3 +540,22 @@ video,
 .scroll-top:hover i {
   color: rgb(255, 0, 0);
 }
+
+.accordion-item-body-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; /* Alinha o texto e a imagem no topo */
+  gap: 20px; /* Espaçamento entre a imagem e o texto */
+}
+
+.accordion-item-body-content img {
+  max-width: 300px; /* Defina o tamanho máximo da imagem */
+  height: auto;
+}
+
+.accordion-item-body-content p {
+  flex: 1;
+  text-align: left;
+  margin: 0; /* Remove margens indesejadas */
+}
+
