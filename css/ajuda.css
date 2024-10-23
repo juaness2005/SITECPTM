@@ -19,7 +19,7 @@ body {
     align-items: center;
 }
 
-h1 {
+.h1 {
     margin-bottom: 10px;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #ff0008;
@@ -114,5 +114,7 @@ p {
 .botao:active {
     transform: scale(0.95);
 }
+
+
 
 
